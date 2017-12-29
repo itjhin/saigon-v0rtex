@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		302301C91F9709DA000C7B7A /* libjb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 302301C81F9709D1000C7B7A /* libjb.a */; };
+		302301CB1F982D78000C7B7A /* kppless.m in Sources */ = {isa = PBXBuildFile; fileRef = 302301CA1F982D77000C7B7A /* kppless.m */; };
+		304532FB1F9177E1001F4572 /* bootstrap.tar in Resources */ = {isa = PBXBuildFile; fileRef = 75CCC4271F85C52B00E46AE5 /* bootstrap.tar */; };
+		304532FC1F9177E1001F4572 /* dropbear.plist in Resources */ = {isa = PBXBuildFile; fileRef = 75CCC4261F85C52B00E46AE5 /* dropbear.plist */; };
+		304532FD1F9177E1001F4572 /* launchctl in Resources */ = {isa = PBXBuildFile; fileRef = 75CCC4281F85C52C00E46AE5 /* launchctl */; };
+		304532FE1F9177E1001F4572 /* reload in Resources */ = {isa = PBXBuildFile; fileRef = 75CCC4291F85C52C00E46AE5 /* reload */; };
+		304532FF1F9177E1001F4572 /* tar in Resources */ = {isa = PBXBuildFile; fileRef = 75CCC42A1F85C52C00E46AE5 /* tar */; };
+		3049AFB31F9EB14100891CA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3049AFB21F9EB14000891CA5 /* main.m */; };
+		3049AFB51F9EB30D00891CA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3049AFB41F9EB30D00891CA5 /* AppDelegate.m */; };
+		3088BB581FDC4A7100C72C27 /* v0rtex.m in Sources */ = {isa = PBXBuildFile; fileRef = 3088BB531FDC4A7100C72C27 /* v0rtex.m */; };
+		3088BB5B1FDC4BEB00C72C27 /* offsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 3088BB5A1FDC4BEB00C72C27 /* offsets.m */; };
+		308BB5281F92CD670031BB84 /* 0.reload.plist in Resources */ = {isa = PBXBuildFile; fileRef = 308BB5271F92CD670031BB84 /* 0.reload.plist */; };
+		30EA3F3E1FA16F9D000C05D1 /* kppless_inject.m in Sources */ = {isa = PBXBuildFile; fileRef = 30EA3F3D1FA16F9D000C05D1 /* kppless_inject.m */; };
+		30EA3F401FA17DDC000C05D1 /* darwin-inject-asm.s in Sources */ = {isa = PBXBuildFile; fileRef = 30EA3F3F1FA17DDC000C05D1 /* darwin-inject-asm.s */; };
+		30EAD3C41FDD8B5500A2E94B /* bootstrap.dmg in Resources */ = {isa = PBXBuildFile; fileRef = 30EAD3C31FDD8B1E00A2E94B /* bootstrap.dmg */; };
+		30F0F4391FCF587F00C8B4D4 /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F0F4381FCF587F00C8B4D4 /* AlertViewController.m */; };
+		30F0F43B1FCF6BB500C8B4D4 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F0F43A1FCF6BB500C8B4D4 /* InfoViewController.m */; };
+		30F9C2B81FCF47620092516B /* SaigonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30F9C2B71FCF47620092516B /* SaigonViewController.m */; };
+		75213E6B1F776EED003FA69D /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75213E6A1F776EED003FA69D /* IOKit.framework */; };
+		75213E781F776F3F003FA69D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75213E701F776F3F003FA69D /* Main.storyboard */; };
+		75213E7A1F776F3F003FA69D /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 75213E741F776F3F003FA69D /* Utilities.m */; };
+		75213EA41F776F7F003FA69D /* jailbreak.c in Sources */ = {isa = PBXBuildFile; fileRef = 75213E9D1F776F7F003FA69D /* jailbreak.c */; };
+		75213EA51F776F7F003FA69D /* patchfinder64.c in Sources */ = {isa = PBXBuildFile; fileRef = 75213E9E1F776F7F003FA69D /* patchfinder64.c */; };
+		75213EA61F776F7F003FA69D /* unjail.m in Sources */ = {isa = PBXBuildFile; fileRef = 75213EA21F776F7F003FA69D /* unjail.m */; };
+		75D8DCC91F77895200AC2763 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D8DCC81F77895200AC2763 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		301D7D001F999BC10088C088 /* kppless.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kppless.h; path = saigon/extra_recipe/kppless.h; sourceTree = "<group>"; };
+		302301C81F9709D1000C7B7A /* libjb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjb.a; path = saigon/extra_recipe/libjb.a; sourceTree = "<group>"; };
+		302301CA1F982D77000C7B7A /* kppless.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = kppless.m; path = saigon/extra_recipe/kppless.m; sourceTree = "<group>"; };
+		3049AFB21F9EB14000891CA5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = saigon/main.m; sourceTree = "<group>"; };
+		3049AFB41F9EB30D00891CA5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = saigon/AppDelegate.m; sourceTree = "<group>"; };
+		3049AFB61F9EB34300891CA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = saigon/AppDelegate.h; sourceTree = "<group>"; };
+		3088BB521FDC4A7100C72C27 /* v0rtex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = v0rtex.h; path = saigon/vortex/v0rtex.h; sourceTree = "<group>"; };
+		3088BB531FDC4A7100C72C27 /* v0rtex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = v0rtex.m; path = saigon/vortex/v0rtex.m; sourceTree = "<group>"; };
+		3088BB591FDC4BEB00C72C27 /* offsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = offsets.h; path = saigon/vortex/offsets.h; sourceTree = "<group>"; };
+		3088BB5A1FDC4BEB00C72C27 /* offsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = offsets.m; path = saigon/vortex/offsets.m; sourceTree = "<group>"; };
+		308BB5271F92CD670031BB84 /* 0.reload.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = 0.reload.plist; path = saigon/0.reload.plist; sourceTree = "<group>"; };
+		30EA3F3C1FA16F9D000C05D1 /* kppless_inject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kppless_inject.h; path = saigon/extra_recipe/kppless_inject.h; sourceTree = "<group>"; };
+		30EA3F3D1FA16F9D000C05D1 /* kppless_inject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = kppless_inject.m; path = saigon/extra_recipe/kppless_inject.m; sourceTree = "<group>"; };
+		30EA3F3F1FA17DDC000C05D1 /* darwin-inject-asm.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; name = "darwin-inject-asm.s"; path = "saigon/extra_recipe/darwin-inject-asm.s"; sourceTree = "<group>"; };
+		30EAD3C31FDD8B1E00A2E94B /* bootstrap.dmg */ = {isa = PBXFileReference; lastKnownFileType = file; name = bootstrap.dmg; path = saigon/bootstrap.dmg; sourceTree = "<group>"; };
+		30F0F4381FCF587F00C8B4D4 /* AlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AlertViewController.m; path = saigon/AlertViewController.m; sourceTree = "<group>"; };
+		30F0F43A1FCF6BB500C8B4D4 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InfoViewController.m; path = saigon/InfoViewController.m; sourceTree = "<group>"; };
+		30F9C2B71FCF47620092516B /* SaigonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SaigonViewController.m; path = saigon/SaigonViewController.m; sourceTree = "<group>"; };
+		30FB04231F92857600BF91AC /* jailbreak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jailbreak.h; path = saigon/jailbreak.h; sourceTree = "<group>"; };
+		75213E6A1F776EED003FA69D /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
+		75213E701F776F3F003FA69D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = saigon/Main.storyboard; sourceTree = "<group>"; };
+		75213E731F776F3F003FA69D /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utilities.h; path = saigon/Utilities.h; sourceTree = "<group>"; };
+		75213E741F776F3F003FA69D /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Utilities.m; path = saigon/Utilities.m; sourceTree = "<group>"; };
+		75213E9D1F776F7F003FA69D /* jailbreak.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = jailbreak.c; path = saigon/extra_recipe/jailbreak.c; sourceTree = "<group>"; };
+		75213E9E1F776F7F003FA69D /* patchfinder64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = patchfinder64.c; path = saigon/extra_recipe/patchfinder64.c; sourceTree = "<group>"; };
+		75213E9F1F776F7F003FA69D /* patchfinder64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = patchfinder64.h; path = saigon/extra_recipe/patchfinder64.h; sourceTree = "<group>"; };
+		75213EA01F776F7F003FA69D /* pte_stuff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pte_stuff.h; path = saigon/extra_recipe/pte_stuff.h; sourceTree = "<group>"; };
+		75213EA11F776F7F003FA69D /* unjail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = unjail.h; path = saigon/extra_recipe/unjail.h; sourceTree = "<group>"; };
+		75213EA21F776F7F003FA69D /* unjail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = unjail.m; path = saigon/extra_recipe/unjail.m; sourceTree = "<group>"; };
+		75213EEC1F777000003FA69D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = saigon/Info.plist; sourceTree = "<group>"; };
+		753A833F1F78046200CB38A9 /* IOKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOKit.h; path = saigon/IOKit/IOKit.h; sourceTree = "<group>"; };
+		753A83401F78046200CB38A9 /* IOKitKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOKitKeys.h; path = saigon/IOKit/IOKitKeys.h; sourceTree = "<group>"; };
+		753A83411F78046200CB38A9 /* IOKitLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOKitLib.h; path = saigon/IOKit/IOKitLib.h; sourceTree = "<group>"; };
+		753A83421F78046200CB38A9 /* IOMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOMessage.h; path = saigon/IOKit/IOMessage.h; sourceTree = "<group>"; };
+		753A83431F78046200CB38A9 /* IOReturn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOReturn.h; path = saigon/IOKit/IOReturn.h; sourceTree = "<group>"; };
+		753A83441F78046200CB38A9 /* IOTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IOTypes.h; path = saigon/IOKit/IOTypes.h; sourceTree = "<group>"; };
+		753A83451F78046200CB38A9 /* OSKext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSKext.h; path = saigon/IOKit/OSKext.h; sourceTree = "<group>"; };
+		753A83461F78046200CB38A9 /* OSMessageNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OSMessageNotification.h; path = saigon/IOKit/OSMessageNotification.h; sourceTree = "<group>"; };
+		75706FA71F89506E0009735B /* libjb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = libjb.h; path = saigon/extra_recipe/libjb.h; sourceTree = "<group>"; };
+		75CCC4261F85C52B00E46AE5 /* dropbear.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = dropbear.plist; path = saigon/dropbear.plist; sourceTree = "<group>"; };
+		75CCC4271F85C52B00E46AE5 /* bootstrap.tar */ = {isa = PBXFileReference; lastKnownFileType = archive.tar; name = bootstrap.tar; path = saigon/bootstrap.tar; sourceTree = "<group>"; };
+		75CCC4281F85C52C00E46AE5 /* launchctl */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = launchctl; path = saigon/launchctl; sourceTree = "<group>"; };
+		75CCC4291F85C52C00E46AE5 /* reload */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = reload; path = saigon/reload; sourceTree = "<group>"; };
+		75CCC42A1F85C52C00E46AE5 /* tar */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = tar; path = saigon/tar; sourceTree = "<group>"; };
+		75D8DCC81F77895200AC2763 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Saigon/Images.xcassets; sourceTree = "<group>"; };
+		EA9900E31E1E9F060056FEBD /* Saigon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Saigon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA9900E01E1E9F060056FEBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75213E6B1F776EED003FA69D /* IOKit.framework in Frameworks */,
+				302301C91F9709DA000C7B7A /* libjb.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75213E691F776EEC003FA69D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75213E6A1F776EED003FA69D /* IOKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75213E6C1F776F00003FA69D /* saigon */ = {
+			isa = PBXGroup;
+			children = (
+				75CCC4251F85C50E00E46AE5 /* bundle */,
+				753A833E1F78045500CB38A9 /* IOKit */,
+				75213EA71F776F84003FA69D /* v0rtex */,
+				75213E9A1F776F73003FA69D /* extra_recipe */,
+				30F9C2B71FCF47620092516B /* SaigonViewController.m */,
+				30F0F4381FCF587F00C8B4D4 /* AlertViewController.m */,
+				30F0F43A1FCF6BB500C8B4D4 /* InfoViewController.m */,
+				75213E731F776F3F003FA69D /* Utilities.h */,
+				75213E741F776F3F003FA69D /* Utilities.m */,
+				3049AFB21F9EB14000891CA5 /* main.m */,
+				3049AFB41F9EB30D00891CA5 /* AppDelegate.m */,
+				3049AFB61F9EB34300891CA5 /* AppDelegate.h */,
+				75213EEC1F777000003FA69D /* Info.plist */,
+			);
+			name = saigon;
+			sourceTree = "<group>";
+		};
+		75213E9A1F776F73003FA69D /* extra_recipe */ = {
+			isa = PBXGroup;
+			children = (
+				75213E9D1F776F7F003FA69D /* jailbreak.c */,
+				30FB04231F92857600BF91AC /* jailbreak.h */,
+				75213E9E1F776F7F003FA69D /* patchfinder64.c */,
+				75213E9F1F776F7F003FA69D /* patchfinder64.h */,
+				75213EA01F776F7F003FA69D /* pte_stuff.h */,
+				75213EA11F776F7F003FA69D /* unjail.h */,
+				75213EA21F776F7F003FA69D /* unjail.m */,
+				75706FA71F89506E0009735B /* libjb.h */,
+				302301C81F9709D1000C7B7A /* libjb.a */,
+				302301CA1F982D77000C7B7A /* kppless.m */,
+				301D7D001F999BC10088C088 /* kppless.h */,
+				30EA3F3C1FA16F9D000C05D1 /* kppless_inject.h */,
+				30EA3F3D1FA16F9D000C05D1 /* kppless_inject.m */,
+				30EA3F3F1FA17DDC000C05D1 /* darwin-inject-asm.s */,
+			);
+			name = extra_recipe;
+			sourceTree = "<group>";
+		};
+		75213EA71F776F84003FA69D /* v0rtex */ = {
+			isa = PBXGroup;
+			children = (
+				3088BB521FDC4A7100C72C27 /* v0rtex.h */,
+				3088BB531FDC4A7100C72C27 /* v0rtex.m */,
+				3088BB591FDC4BEB00C72C27 /* offsets.h */,
+				3088BB5A1FDC4BEB00C72C27 /* offsets.m */,
+			);
+			name = v0rtex;
+			sourceTree = "<group>";
+		};
+		753A833E1F78045500CB38A9 /* IOKit */ = {
+			isa = PBXGroup;
+			children = (
+				753A833F1F78046200CB38A9 /* IOKit.h */,
+				753A83401F78046200CB38A9 /* IOKitKeys.h */,
+				753A83411F78046200CB38A9 /* IOKitLib.h */,
+				753A83421F78046200CB38A9 /* IOMessage.h */,
+				753A83431F78046200CB38A9 /* IOReturn.h */,
+				753A83441F78046200CB38A9 /* IOTypes.h */,
+				753A83451F78046200CB38A9 /* OSKext.h */,
+				753A83461F78046200CB38A9 /* OSMessageNotification.h */,
+			);
+			name = IOKit;
+			sourceTree = "<group>";
+		};
+		75CCC4251F85C50E00E46AE5 /* bundle */ = {
+			isa = PBXGroup;
+			children = (
+				75D8DCC81F77895200AC2763 /* Images.xcassets */,
+				75213E701F776F3F003FA69D /* Main.storyboard */,
+				75CCC4271F85C52B00E46AE5 /* bootstrap.tar */,
+				30EAD3C31FDD8B1E00A2E94B /* bootstrap.dmg */,
+				75CCC4261F85C52B00E46AE5 /* dropbear.plist */,
+				75CCC4281F85C52C00E46AE5 /* launchctl */,
+				75CCC4291F85C52C00E46AE5 /* reload */,
+				75CCC42A1F85C52C00E46AE5 /* tar */,
+				308BB5271F92CD670031BB84 /* 0.reload.plist */,
+			);
+			name = bundle;
+			sourceTree = "<group>";
+		};
+		EA9900DA1E1E9F060056FEBD = {
+			isa = PBXGroup;
+			children = (
+				75213E6C1F776F00003FA69D /* saigon */,
+				EA9900E41E1E9F060056FEBD /* Products */,
+				75213E691F776EEC003FA69D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA9900E41E1E9F060056FEBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA9900E31E1E9F060056FEBD /* Saigon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA9900E21E1E9F060056FEBD /* Saigon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA9900FA1E1E9F060056FEBD /* Build configuration list for PBXNativeTarget "Saigon" */;
+			buildPhases = (
+				EA9900DF1E1E9F060056FEBD /* Sources */,
+				EA9900E01E1E9F060056FEBD /* Frameworks */,
+				EA9900E11E1E9F060056FEBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Saigon;
+			productName = Saigon;
+			productReference = EA9900E31E1E9F060056FEBD /* Saigon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA9900DB1E1E9F060056FEBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = cheesecakeufo;
+				TargetAttributes = {
+					EA9900E21E1E9F060056FEBD = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EA9900DE1E1E9F060056FEBD /* Build configuration list for PBXProject "Saigon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA9900DA1E1E9F060056FEBD;
+			productRefGroup = EA9900E41E1E9F060056FEBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA9900E21E1E9F060056FEBD /* Saigon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA9900E11E1E9F060056FEBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				304532FB1F9177E1001F4572 /* bootstrap.tar in Resources */,
+				30EAD3C41FDD8B5500A2E94B /* bootstrap.dmg in Resources */,
+				304532FC1F9177E1001F4572 /* dropbear.plist in Resources */,
+				304532FD1F9177E1001F4572 /* launchctl in Resources */,
+				304532FE1F9177E1001F4572 /* reload in Resources */,
+				304532FF1F9177E1001F4572 /* tar in Resources */,
+				308BB5281F92CD670031BB84 /* 0.reload.plist in Resources */,
+				75D8DCC91F77895200AC2763 /* Images.xcassets in Resources */,
+				75213E781F776F3F003FA69D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA9900DF1E1E9F060056FEBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F0F43B1FCF6BB500C8B4D4 /* InfoViewController.m in Sources */,
+				30EA3F3E1FA16F9D000C05D1 /* kppless_inject.m in Sources */,
+				75213EA51F776F7F003FA69D /* patchfinder64.c in Sources */,
+				30F0F4391FCF587F00C8B4D4 /* AlertViewController.m in Sources */,
+				75213EA41F776F7F003FA69D /* jailbreak.c in Sources */,
+				3049AFB31F9EB14100891CA5 /* main.m in Sources */,
+				302301CB1F982D78000C7B7A /* kppless.m in Sources */,
+				3049AFB51F9EB30D00891CA5 /* AppDelegate.m in Sources */,
+				30F9C2B81FCF47620092516B /* SaigonViewController.m in Sources */,
+				30EA3F401FA17DDC000C05D1 /* darwin-inject-asm.s in Sources */,
+				75213EA61F776F7F003FA69D /* unjail.m in Sources */,
+				3088BB581FDC4A7100C72C27 /* v0rtex.m in Sources */,
+				75213E7A1F776F3F003FA69D /* Utilities.m in Sources */,
+				3088BB5B1FDC4BEB00C72C27 /* offsets.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EA9900F81E1E9F060056FEBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = armv7;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_NO_PIE = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = Saigon;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA9900F91E1E9F060056FEBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = armv7;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_NO_PIE = NO;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Saigon;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA9900FB1E1E9F060056FEBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				DEVELOPMENT_TEAM = "";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Headers";
+				INFOPLIST_FILE = saigon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/saigon/extra_recipe",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cheesecakeufo.saigon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		EA9900FC1E1E9F060056FEBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = "";
+				DEVELOPMENT_TEAM = "";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Headers";
+				INFOPLIST_FILE = saigon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/saigon/extra_recipe",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cheesecakeufo.saigon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA9900DE1E1E9F060056FEBD /* Build configuration list for PBXProject "Saigon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9900F81E1E9F060056FEBD /* Debug */,
+				EA9900F91E1E9F060056FEBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA9900FA1E1E9F060056FEBD /* Build configuration list for PBXNativeTarget "Saigon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA9900FB1E1E9F060056FEBD /* Debug */,
+				EA9900FC1E1E9F060056FEBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA9900DB1E1E9F060056FEBD /* Project object */;
+}

@@ -1,0 +1,17 @@
+This is a small utility to help find gadgets in a (64-bit, iOS 10+) kernelcache.
+
+Run make to build find_gadgets.
+
+Create a file where every line has the following format:
+
+	<name-of-gadget>,<hex-byte-sequence-of-gadget>
+
+Now run find_gadget as follows:
+
+	$ ./find_gadget /path/to/kernelcache $(cat /path/to/gadgets-file)
+
+For example:
+
+	$ ./find_gadget /path/to/kernelcache.n71.decompressed $(cat ./call_strategy_3.txt)
+
+This will print out a list of the static addresses of the gadgets.
